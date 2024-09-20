@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(202, 190, 190);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.yellow-background {
+    background-color: rgba(112, 20, 20, 0.8);
+    color: rgb(211, 211, 211);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+}
+
+.news-section, .registration-box {
+    background-color: rgba(44, 44, 44, 0.918);
+    color: rgb(219, 219, 219);
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid rgb(51, 12, 12);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.356);
+}
+
+.registration-box h2 {
+    color: rgb(177, 173, 173);
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #d1d1d15b;
+    border-radius: 5px;
+    background-color: rgba(202, 202, 202, 0.733);
+}
+
+.news-item h3 {
+    color: #80281e;
+}
+
+.footer-note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 0, 0, 0.445);
+}
+
+.about-section {
+    background-color: rgba(0, 0, 0, 0.205);
+    color: rgb(177, 177, 177);
+    padding: 20px;
+    margin: 70px 0;
+    border: 0.5px solid rgba(255, 0, 0, 0.192);
+    border-radius: 13px;
+}
+
+.social-media {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.facebook-logo {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.facebook-logo:hover {
+    transform: scale(1.1);
+}
+
+.footer-declaration {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
